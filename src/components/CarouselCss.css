@@ -1,0 +1,46 @@
+/* Carousel.css */
+
+.carousel-container {
+    position: relative;
+    width: 100%; /* Set the carousel to take full width of its parent container */
+    height: 300px; /* Set the fixed height of the carousel */
+    margin: 0 auto;
+    overflow: hidden; /* Hide the overflow to keep images within the fixed size */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto; /* Adjust the height to maintain the image's aspect ratio */
+    object-fit: cover; /* Make the image fill the container without stretching */
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover {
+    opacity: 1;
+  }
+  
+  .prev-button {
+    left: 16px;
+  }
+  
+  .next-button {
+    right: 16px;
+  }
+  
