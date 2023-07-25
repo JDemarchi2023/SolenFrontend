@@ -1,5 +1,5 @@
 # SolenFrontend
-#To run a React app from a GitHub repository, follow these steps:
+To run a React app from a GitHub repository, follow these steps:
 
 1. **Clone the GitHub Repository:**
    - Open a terminal or command prompt on your local machine.
